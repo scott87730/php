@@ -1,0 +1,54 @@
+1作業
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<?php 
+echo "Hello World!<br>"; 
+echo "Hello 龍大大"; 
+?> 
+
+</body> 
+</html>
+
+2作業
+<?php
+$x=5;
+$y=6;
+$z=$x+$y;
+echo $z;
+?>
+
+3作業
+<?php
+$txt1="學習 PHP";
+$txt2="RUNOOB.COM";
+$cars=array("Volvo","BMW","Toyota");
+ 
+echo $txt1;
+echo "<br>";
+echo "在 $txt2 學習 PHP ";
+echo "<br>";
+echo "我車的品牌是 {$cars[0]}";
+?>
+
+4作業
+<?php
+echo "<h2>PHP 很有趣!</h2>";
+echo "Hello 龍大大大大!<br>";
+echo "我要学 PHP!<br>";
+echo "这是一个", "字符串，", "使用了", "多个", "参数。";
+?>
+
+5作業
+<?php
+$txt1="学习 PHP";
+$txt2="MyDearGreatTeacher";
+$cars=array("Volvo","BMW","Toyota");
+
+echo $txt1;
+echo "<br>";
+echo "在 $txt2 学习 PHP ";
+echo "<br>";
+echo "我车的品牌是 {$cars[0]}";
+?>
